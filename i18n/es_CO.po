@@ -1,0 +1,142 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* credit_note
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-20 07:38+0000\n"
+"PO-Revision-Date: 2016-07-20 07:38+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: credit_note
+#: code:addons/credit_note/models/credit_note.py:65
+#, python-format
+msgid "!! Amount is greater than Invoice Total !!"
+msgstr "!! El monto es mayor que el total de la factura !!"
+
+#. module: credit_note
+#: code:addons/credit_note/models/credit_note.py:62
+#, python-format
+msgid "!! Amount must be greater than zero !!"
+msgstr "!! Amount must be greater than zero !!"
+
+#. module: credit_note
+#: code:addons/credit_note/models/credit_note.py:100
+#, python-format
+msgid "!! Credit note cannot be create !!"
+msgstr "!! No puede crearse la nota de crédito !!"
+
+#. module: credit_note
+#: code:addons/credit_note/models/credit_note.py:41
+#, python-format
+msgid "!! Invoice is draft, Invoice must be in validate state !!"
+msgstr "!! Factura esta en borrador, Factura debe de estar en estado validado !!"
+
+#. module: credit_note
+#: field:credit.note,amount:0
+msgid "Amount"
+msgstr "Monto"
+
+#. module: credit_note
+#: view:credit.note:credit_note.credit_note_view_invoice
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: credit_note
+#: view:credit.note:credit_note.credit_note_view_invoice
+msgid "Create Credit Note"
+msgstr "Crear Nota de Crédito"
+
+#. module: credit_note
+#: field:credit.note,create_uid:0
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: credit_note
+#: field:credit.note,create_date:0
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: credit_note
+#: code:addons/credit_note/models/account_invoice.py:43
+#, python-format
+msgid "Credi Note Customer"
+msgstr "Nota de Crédito de Cliente"
+
+#. module: credit_note
+#: view:account.invoice:credit_note.view_invoice_credit_note_inh
+#: view:credit.note:credit_note.credit_note_view_invoice
+msgid "Credit Note"
+msgstr "Nota de Crédito"
+
+#. module: credit_note
+#: model:ir.actions.act_window,name:credit_note.action_credit_note_customer
+msgid "Credit Note Customer"
+msgstr "Nota de Crédito de Cliente"
+
+#. module: credit_note
+#: field:credit.note,date_note:0
+msgid "Date of Credit Note"
+msgstr "Fecha de nota de cŕedito"
+
+#. module: credit_note
+#: field:credit.note,name:0
+msgid "Description of Credit Note"
+msgstr "Descripción de nota de crédito"
+
+#. module: credit_note
+#: field:credit.note,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: credit_note
+#: model:ir.model,name:credit_note.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: credit_note
+#: field:credit.note,invoice_number:0
+msgid "Invoice number"
+msgstr "Número de factura"
+
+#. module: credit_note
+#: field:credit.note,journal_id:0
+msgid "Journal of Credit Note"
+msgstr "Diario de nota de crédito"
+
+#. module: credit_note
+#: field:credit.note,write_uid:0
+msgid "Last Updated by"
+msgstr "Actualizado por"
+
+#. module: credit_note
+#: field:credit.note,write_date:0
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: credit_note
+#: field:credit.note,period_id:0
+msgid "Period"
+msgstr "Periodo"
+
+#. module: credit_note
+#: code:addons/credit_note/models/credit_note.py:41
+#: code:addons/credit_note/models/credit_note.py:62
+#: code:addons/credit_note/models/credit_note.py:65
+#: code:addons/credit_note/models/credit_note.py:100
+#, python-format
+msgid "Warning"
+msgstr "Atención"
+
+#. module: credit_note
+#: view:credit.note:credit_note.credit_note_view_invoice
+msgid "or"
+msgstr "o"
+

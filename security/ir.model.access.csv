@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_credit_note_manager,credit_note.credit.note,model_credit_note,credit_note.group_credit_note_manager,1,1,1,1
+access_credit_note_user,credit_note.credit.note,model_credit_note,credit_note.group_credit_note_user,1,0,0,0

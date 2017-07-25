@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+<record model="ir.module.category" id="module_category_credit_note">
+            <field name="name">Permisos para fletes y precios</field>
+            <field name="description">Fletes y Precios</field>
+            <field name="sequence">4</field>
+</record>
+
+<!-- Permisos para Notas de credito -->
+<record id="credit_note.group_credit_note_user" model="res.groups">
+<field name="category_id" ref="module_category_credit_note"/>
+<field name="name">Credit Note / User</field>
+</record>
+
+<record id="credit_note.group_credit_note_manager" model="res.groups">
+<field name="category_id" ref="module_category_credit_note"/>
+<field name="name">Credit Note for Customer / Manager</field>
+ <field name="users" eval="[(4, ref('base.user_root'))]"/>
+</record>
+
+</data>
+</openerp>
+
+
